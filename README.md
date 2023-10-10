@@ -34,3 +34,31 @@ You can view a live demo of the ChatSense is [here](https://chatsense.onrender.c
 2. Install the required Python packages:
    ```shell
    pip install streamlit matplotlib seaborn
+   
+3. Run the Streamlit app:
+   ```shell
+   streamlit run app.py
+   
+4. Open a web browser and navigate to the provided URL to access the ChatSense app.
+   
+## Usage
+
+1. Upload your WhatsApp chat export file.
+
+2. Select a user from the dropdown menu or choose "Overall" for group-level analysis.
+
+3. Click the "Show Analysis" button to generate visualizations and insights.
+
+4. Explore the various sections and graphs to gain insights into your WhatsApp chat data.
+   
+## Customization
+
+You can further customize and extend the functionality of ChatSense by modifying the Python code in the app.py file and adding your own analysis functions to the helper.py module.
+
+## Requirements
+
+1) Python 3.x
+2) Streamlit
+3) Matplotlib
+4) Seaborn
+   
